@@ -1,0 +1,54 @@
+
+*{
+    text-decoration: none;
+}
+.main{
+    background-size: cover;
+    padding: 125px;
+    width: 1090px;
+    height: 30vh;
+    text-align: right;
+    background-image: url(https://img.freepik.com/free-photo/side-view-anime-girl-hugging-cat_23-2150970943.jpg);
+
+}
+
+.main > button {
+    margin: auto;
+    margin-right: 60px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 2px;
+}
+
+.nav{
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 30px;
+    padding-left: 90px;
+
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+}
+li a:hover{
+    background-color: rgb(255,82,82);
+}
+
+.btn{
+    margin-top: -2.6%;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para1 {
+            background-color: mediumaquamarine;
+            padding: 10px;
+            position: static;
+            /*top,right,bottom,left have no effect in case of static position*/
+            top: 100px;
+
+        }
+
+        #para2 {
+            background-color: mediumspringgreen;
+            padding: 10px;
+           /*position: relative;*/
+           position: absolute;
+            /*top: 100px; */
+            right: 100px;
+            top:40px;
+            z-index: -1;
+
+        }
+
+        #para3 {
+            background-color: mediumpurple;
+            padding: 10px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <p id="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magnam asperiores iusto doloremque
+        consequatur dolores suscipit, ea nisi officiis autem adipisci quis, omnis, in ut amet similique recusandae velit
+        dolorem.</p>
+    <p id="para2">Nobis possimus totam numquam eveniet tenetur eaque ullam et praesentium doloribus incidunt culpa
+        natus, tempora odit quis, sint architecto. Officiis nihil ratione accusantium laboriosam delectus. Inventore
+        libero ipsum maxime sequi.</p>
+    <p id="para3"> Libero ea ad nulla quia sit dicta veniam omnis dolorem fugiat, commodi ipsam dolore quasi cupiditate
+        unde earum asperiores! Accusamus recusandae inventore magni sapiente omnis laborum officiis eaque ipsum
+        doloremque.</p>
+    </p>
+    
+    <!--To hide the element in the current document
+    display:none;     //used most of the time
+    visibility:hidden
+    opacity:0-->
+</body>
+
+</html>
